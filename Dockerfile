@@ -12,8 +12,8 @@ RUN apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /var/www/html
-COPY ./opensips-cp-9.3.2 /var/www/html/opensips-cp
-# RUN mv opensips-cp-9.3.2 opensips-cp
+ADD opensips-cp-9.3.2.tar.gz /var/www/html
+RUN mv opensips-cp-9.3.2 opensips-cp
 
 ENV OPENSIPS_CP_PATH=/var/www/html/opensips-cp
 
