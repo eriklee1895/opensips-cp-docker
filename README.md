@@ -1,6 +1,6 @@
 # OpenSIPs Control Panel Docker Image
 
-This is a docker image for OpenSIPS Control Panel (OCP).
+This is a docker image for OpenSIPS Control Panel (OCP), see more details for OCP:
 
 [http://controlpanel.opensips.org](http://controlpanel.opensips.org)
 
@@ -8,7 +8,7 @@ This is a docker image for OpenSIPS Control Panel (OCP).
 
 
 
-This docker image is suit for **OpenSIPs v3.2**, and with MySQL as db backend.
+This opensips-cp docker image is suit for **OpenSIPs v3.2**, and with MySQL as db backend.
 
 ## Environment Variables
 
